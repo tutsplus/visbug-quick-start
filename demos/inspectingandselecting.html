@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>VisBug Inspecting and Selecting</title>
+</head>
+<body>
+    <header class="panel" role="banner">
+        <h1>Inspecting and Selecting</h1>
+    </header>
+    <article class="panel" role="article">
+        <h1>Article</h1>
+        <p>Cotton candy marzipan caramels sweet chocolate gingerbread pie sesame snaps sweet. Gingerbread danish cheesecake. Cookie topping marzipan <a href="#">wafer</a> macaroon macaroon lollipop gummi bears. Toffee tootsie roll chupa chups lollipop bonbon.</p>
+        <p>Carrot cake tiramisu gummies dragée gummies candy canes croissant. Ice cream chocolate bar lemon drops liquorice candy canes apple pie. Sesame snaps donut toffee dessert jelly-o tart soufflé. Jujubes chocolate bar danish chocolate bar.</p>
+    </article>
+    <article class="panel grid" role="article">
+        <div>
+            <h1>SVG</h1>
+            <svg width="300" height="100">
+                <rect x="0" y="0" width="300" height="100"></rect>
+            </svg>
+        </div>
+        <div>
+            <h1>Tab Index</h1>
+            <form action="">
+                <label for="name">Name: </label><input tabindex="1" id="name" type="text">
+                <label for="email"> Email: </label><input tabindex="2" id="email" type="text">
+            </form>
+        </div>
+    </article>
+    <article class="panel" role="article">
+        <h1>Children and Siblings</h1>
+        <div class="flex">
+            <div class="box">
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="box">
+                <div class="box">
+                    <div class="box"></div>
+                </div>
+                <div class="box"></div>
+            </div>
+            <div class="box"></div>
+        </div>
+    </article>
+</body>
+</html>
