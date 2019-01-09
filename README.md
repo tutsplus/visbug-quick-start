@@ -1,5 +1,5 @@
 ## Envato Tuts+ Course: VisBug Quick Start
-### Instructor: [Kezz Bracey|](https://tutsplus.com/authors/kezz-bracey)
+### Instructor: [Kezz Bracey](https://tutsplus.com/authors/kezz-bracey)
 
 Project VisBug is a new extension for Chrome (and soon Firefox) that allows you to make almost any change to a site's visuals you need to, all within the browser via a point and click process.
 
